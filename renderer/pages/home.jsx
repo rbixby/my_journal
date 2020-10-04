@@ -1,6 +1,8 @@
 import electron from 'electron';
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 import Link from 'next/link';
 
 // prevent SSR webpacking
@@ -42,7 +44,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Home - Nextron (ipc-communication)</title>
+        <title>My Journaling Tool</title>
       </Head>
       <div>
         <p>
