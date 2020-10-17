@@ -86,7 +86,7 @@ const Home = () => {
           <Box bgcolor="info.main" width="33vw" height="95vh">
             <EntryListController/>
           </Box>
-          <Box flexGrow="1" bgcolor="success.main" >
+          <Box flexGrow="1">
             <EntryController/>
           </Box>
         </Box>
